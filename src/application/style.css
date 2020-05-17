@@ -1,0 +1,79 @@
+/*TABLE VIEW*/
+
+.table-view {
+    -fx-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+}
+
+.table-row-cell {
+    -fx-table-cell-border-color: black;
+}
+
+.table-row-cell:focused .table-cell {
+    -fx-background-color: #D65DB1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:focused:selected .table-cell {
+    -fx-background-color: #D65DB1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:hover .table-cell {
+    -fx-background-color: rgba(214, 93, 177, 0.5);
+}
+
+.table-row-cell:hover:focused .table-cell {
+    -fx-background-color: #D65DB1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/*BUTTONS*/
+
+#add {
+    -fx-background-color: #845EC2;
+}
+
+#add:hover {
+    -fx-background-color: #977cc2;
+}
+
+#update {
+    -fx-background-color: #D65DB1;
+}
+
+#update:hover {
+    -fx-background-color: #d679b6;
+}
+
+#search {
+    -fx-background-color: #FF9671;
+}
+
+#search:hover {
+    -fx-background-color: #ffaf8a;
+}
+
+#delete {
+    -fx-background-color: #ff6f91;
+}
+
+#delete:hover {
+    -fx-background-color: #ff8899;
+}
+
+#reset {
+    -fx-background-color: #FFC75F;
+}
+
+#reset:hover {
+    -fx-background-color: #ffdd8e;
+}
+
+
+
+
